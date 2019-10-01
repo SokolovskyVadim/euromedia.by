@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Редактирование</title>
+	<link rel="stylesheet" href="css/redaction-style.css">
+</head>
+<body>
+	<div class="container">
+		<nav class="nav registration__nav">
+			<div><a href="#">Главная</a></div>
+			<div class="point">&bull;</div>
+			<div><a href="#" class="nav__active">Редактирование</a></div>
+		</nav>
+		<div class="registration-form">
+			<form action="#" method="POST">
+				<div class="personal-data">
+					<div class="personal-data__subtitle">Личные данные</div>
+					<div class="field">
+						<label class="label" for="company_name">Название компании:</label>
+						<input type="email" id="company_name" name="company_name" required>
+					</div>
+
+					<div class="field">
+						<label class="label" for="user_fio">Ф.И.О:</label>
+						<input type="text" id="user_fio" name="user_fio" required>
+					</div>
+
+				
+					<div class="field">
+						<label class="label" for="user_phone">Телефон:</label>
+						<input type="text" id="user_phone" name="user_phone" required>
+					</div>
+	
+					<div class="field">
+						<label class="label" for="user_email">Email:</label>
+						<input type="email" id="user_email" name="user_email" required>
+					</div>
+
+					<div class="field requisites_textarea">
+						<label class="label" for="requisites">Реквизиты:</label>
+						<textarea name="requisites" id="requisites" name="requisites" maxlength="450"></textarea>
+					</div>
+				</div>
+					<div class="field form__footer">
+						<button type="submit" class="submit-btn" value="submit-btn">Сохранить</button>
+						<button type="submit" class="submit-btn" value="submit-btn">Отмена</button>
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style>
+	<g id="увеличение">
+		<path id="Фигура 8 копия" class="shp0" d="M26.02 0.56L27.44 1.98L1.98 27.43L0.56 26.02L26.02 0.56ZM27.44 26.02L26.02 27.43L0.56 1.98L1.98 0.56L27.44 26.02Z" />
+	</g>
+</svg>

@@ -1,0 +1,43 @@
+body{
+	font-family: "Lato";
+}
+.reviews-block{
+	background-color: #fff;
+	padding: 3em;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.review.flex{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.review{
+	outline: none;
+}
+.review-photo{
+	background-image: url(../img/author-photo.jpg);
+	background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    /*display: inline-block;*/
+}
+.review-info{
+	max-width: 60%;
+	font-size: 14px;
+}
+.review-author-name{
+	font-weight: 600;
+	font-size: 16px;
+}
+.review-author-status{
+	font-size: 14px;
+}
+.review-text{
+	padding: 1em 0;
+	color: #ABB2B9  ;
+}

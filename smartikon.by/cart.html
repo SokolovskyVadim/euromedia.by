@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+</head> 
+<body>
+    
+    <div class="main">
+            <p class="data-times"><a href="">Главная</a> &#149 <a href="" class="this-page">Корзина</a></p>
+        <section class="information">
+            <section class="order clearfix">
+                <span class="contact">
+                    <h4>Контактные данные</h4>
+                    <div class="field">
+                        <label for="name">ФИО*</label>
+                        <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="field">
+                        <label for="adress">Адрес</label>
+                        <input type="text" name="adress" id="adress" />
+                    </div>
+                    <div class="field">
+                        <label for="phone">Телефон*</label>
+                        <input type="text" name="phone" id="phone" />
+                    </div>
+                    <div class="field">
+                        <label for="email">Почта</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                </span>
+                <span class="delivery">
+                    <h4>Доставка</h4>
+                    <p><input name="del" type="radio" value="Minsk"><label for="">по Минску</label></p>
+                    <p><input name="del" type="radio" value="Belarus"><label for="">по Беларуси</label></p>
+                    <p><input name="del" type="radio" value="pickup"><label for="">самовывоз</label></p>
+                </span>
+                <span class="formPay">
+                    <h4>Способ оплаты</h4>
+                    <p><input name="pay" type="radio" value="сashless"><label for="сashless">Безналичная(для юр. лиц)</label></p>
+                            <p><input name="pay" type="radio" value="cash"><label for="">Наличные</label></p>
+                    <p><input name="pay" type="radio" value="cardUpon"><label for="cardUpon">Карточкой при получении</label></p>
+                    <p><input name="pay" type="radio" value="cardOnline" disabled="disbled"><label for="cardOnline" class="disabled">Карточкой онлайн</label></p>
+                </span>
+                <span class="comments">
+                    <h4>Комментарий</h4>
+                    <textarea name="comment" id="" rows="7"></textarea>
+                </span>
+            </section>
+           
+        </section> <section class="stock">
+                <p>При заказе на сумму от 250 руб. без НДС действуют оптовые цены, а при заказе от 500 руб. без НДС - Крупный ОПТ!</p>
+            </section>
+            <div class="min-sum">*Минимальная сумма заказа - 20 руб.</div>
+            <section class="product">
+                <table>
+                    <thead>
+                        <tr class="headTable">
+                            <th><p>Товары</p></th>
+                            <th><p>Стоимость без НДС</p></th>
+                            <th><p>Количество</p></th>
+                            <th><p>Итого без НДС</p></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="productName">
+                            <aside class="clearfix">
+                                    <img src="img/cleaner.png" alt="">
+                                    <div class="text">
+                                            <p class="product-name-text">Отбеливатель БОС плюс Maximum, 600 гр.</p>
+                                            <p>2345-2345</p>
+                                    </div>
+                            </aside>
+                        </td>
+                        <td><p>11,2 руб. ОПТ</p></td>
+                        <td>
+                            <div class="counter">
+                                    <button type="button" class="prev"><img src="img/dec.png" alt=""></button>
+                                    <input type="text" value="5">
+                                    <button type="button" class="next"><img src="img/next.png" alt=""></button>
+                            </div>
+                        </td>
+                        <td><p>56 руб. ОПТ</p></td>
+                        <td><a href="#">удалить X</a></td>
+                    </tr>
+                        <tr>
+                            <td class="productName">
+                                <aside class="clearfix">
+                                        <img src="img/cleaner.png" alt="">
+                                        <div class="text">
+                                                <p class="product-name-text">Отбеливатель БОС плюс Maximum, 600 гр.</p>
+                                                <p>2345-2345</p>
+                                        </div>
+                                </aside>
+                            </td>
+                            <td><p>11,2 руб. ОПТ</p></td>
+                            <td>
+                                <div class="counter">
+                                        <button type="button" class="prev"><img src="img/dec.png" alt=""></button>
+                                        <input type="text" value="5">
+                                        <button type="button" class="next"><img src="img/next.png" alt=""></button>
+                                </div>
+                            </td>
+                            <td><p>56 руб. ОПТ</p></td>
+                            <td><a href="#">удалить X</a></td>
+                        </tr>
+                            <tr>
+                                <td class="productName">
+                                    <aside class="clearfix">
+                                            <img src="img/cleaner.png" alt="">
+                                            <div class="text">
+                                                    <p class="product-name-text">Отбеливатель БОС плюс Maximum, 600 гр.</p>
+                                                    <p>2345-2345</p>
+                                            </div>
+                                    </aside>
+                                </td>
+                                <td><p>11,2 руб. ОПТ</p></td>
+                                <td>
+                                    <div class="counter">
+                                    <button type="button" class="prev"><img src="img/dec.png" alt=""></button>
+                                    <input type="text" value="5">
+                                    <button type="button" class="next"><img src="img/next.png" alt=""></button>
+                                </div>
+                            </td>
+                            <td><p>56 руб. ОПТ</p></td>
+                            <td><a href="#">удалить X</a></td>
+                        </tr>
+                        <tr>
+                            <td class="finalOrder" colspan="7">
+                                <p>Итого без НДС: 280 руб.</p>
+                                <p>Сумма НДС(20%): 56 руб.</p>
+                                <p>Стоимость доставки по минску бесплатно</p>
+                                <p class="fPrice">Итого: 336 руб.</p>
+                            </td>
+                        </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7" class="btn">     
+                                <button type="submit" class="areaOrder">Оформить заказ</button>
+                                <button type="submit" class="fastOrder">Быстрый заказ</button>           
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+    </div>
+     
+</body>
+</html>
