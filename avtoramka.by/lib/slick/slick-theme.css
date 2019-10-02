@@ -178,7 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 50px;
+    font-size: 6px;
     line-height: 20px;
 
     position: absolute;
@@ -191,7 +191,7 @@
     content: '•';
     text-align: center;
 
-    opacity: .4;
+    opacity: .25;
     color: #ABB2B9;
 
     -webkit-font-smoothing: antialiased;
@@ -200,5 +200,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: #c8091b;
+    color: black;
 }
